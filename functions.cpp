@@ -2,7 +2,7 @@
 
 uint8_t mergeNibbles(uint8_t nibble0, uint8_t nibble1)
 {
-  uint8_t merged = (nible0 << 4) | nible1;
+  uint8_t merged = (nibble0 << 4) | nibble1;
   return merged;
 }
 
