@@ -16,7 +16,7 @@ uint8_t ASCIIToHEX(uint8_t ASCIIVal)
   }
   else if( ASCIIVal >= 'A' && ASCIIVal <= 'F')
   {
-      hexval = ASCIIVal - 23;
+      hexval = ASCIIVal - 0x37;
   }
   return hexval;
 }
