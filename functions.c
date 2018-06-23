@@ -52,3 +52,13 @@ void  byte32toArray(uint32_t byte32, uint8_t byteArray[])
   byteArray[2] = (uint8_t) ((byte32 << 16) >> 24);
   byteArray[3] = (uint8_t) ((byte32 << 24) >> 24);
 }
+
+int getLengthOfCharArray(char *str)
+{
+  int counter = 0;
+  while (str[counter] != '\0')
+  {
+      counter++;
+  }
+  return counter;
+}
